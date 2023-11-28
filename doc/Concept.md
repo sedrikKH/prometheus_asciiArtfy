@@ -17,6 +17,10 @@ In this document, we compare three tools for deploying Kubernetes clusters in a 
 | Advantages           | Easy to use Quick to build Supports all core Kubernetes features                                                                                  | Quick to build Supports all core Kubernetes features Easy to automate                                         | Quick to build Supports all core Kubernetes features Easily automated Supports advanced features such as cluster monitoring and management |
 | Disadvantages        | The chosen type of virtualization can affect performance Does not scale to large clusters Possible problems with resources on the local computer. | Can be complex to configure Does not support some advanced features such as cluster monitoring and management | Can be complex to set up Uses Docker, which can be risky from a licensing perspective                                                      |
 
+## Demonstration
+Using k3d
+
+![using a color picker](623779.gif)
 
 ## Conclusions:
 
