@@ -53,6 +53,7 @@ Downloading image
 wget -O https://www.nicepng.com/png/full/2-28004_images-branding-googlelogo-2x-googlelogo-color-272x92dp-custom.png
 ```
 
+![using a color picker](/doc/img/google.png)
 
 Transfer the picture to the ambassador service as payload
 ```
@@ -60,3 +61,9 @@ curl -F 'image=@tmp/name.png' localhost:8088/img/
 ```
 
 Getting picture in asciiArt
+
+![using a color picker](/doc/img/asciiart.png)
+
+## Video demonstration of the operation of the ambassador project deployed in the local kubernetes k3d cluster
+
+![using a color picker](/doc/img/demo-ambassador.gif)

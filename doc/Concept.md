@@ -20,7 +20,7 @@ In this document, we compare three tools for deploying Kubernetes clusters in a 
 ## Demonstration
 Using k3d
 
-![using a color picker](623779.gif)
+![using a color picker](/doc/img/623779.gif)
 
 ## Conclusions:
 
