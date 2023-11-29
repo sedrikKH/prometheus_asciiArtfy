@@ -21,4 +21,4 @@ kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.pas
 
 ## Demo video 
 
-![using a color picker](/img/get_argocd_passwd.gif)
+![using a color picker](/doc/img/get_argocd_passwd.gif)
