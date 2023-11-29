@@ -1,5 +1,7 @@
 # Demonstration of the operation of the ambassador project deployed in the local kubernetes k3d cluster
 
+## Let's look at the infrastructure first
+
 ## Commands: 
 
 The kubectl get all command is used to retrieve information about resources in a Kubernetes cluster. The -n flag is used to specify the namespace for which you want to get information. In your case, it's set to demo.
@@ -45,7 +47,7 @@ Getting the ambasador app version
 curl localhost:8088
 ```
 
-
+## Now let's look at the work of the ambassador project
 
 Downloading image
 
