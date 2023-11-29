@@ -45,6 +45,8 @@ Getting the ambasador app version
 curl localhost:8088
 ```
 
+
+
 Downloading image
 
 ```
@@ -52,6 +54,9 @@ wget -O https://www.nicepng.com/png/full/2-28004_images-branding-googlelogo-2x-g
 ```
 
 
+Transfer the picture to the ambassador service as payload
+```
 curl -F 'image=@tmp/name.png' localhost:8088/img/
+```
 
-
+Getting picture in asciiArt
